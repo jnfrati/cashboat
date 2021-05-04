@@ -8,7 +8,7 @@ const BackgroundSyle =
 const HeaderStyle = "text-center";
 const TitleSyle = "text-7xl font-bold";
 const SubTitleSyle = "mt-2 text-3xl";
-const ContentStyle = "w-1/3";
+const ContentStyle = "md:w-1/3 w-full";
 const FormStyle = "flex flex-col p-12 text-center";
 const InputStyle = "m-2 py-2 px-4 h-12 rounded-full outline-none focus:shadow-md";
 const SelectStyle = "m-2 py-2 px-4 h-12 rounded-full outline-none focus:shadow-md";
@@ -126,7 +126,7 @@ const IndexPage = (props: IProps): React.ReactElement => {
           <span>
             Dolar blue:{" "}
             {new Intl.NumberFormat("es-AR", { style: "currency", currency: "ARS" }).format(
-              amount * dolarBlue
+              Number(amount * dolarBlue || 0)
             )}
           </span>
         </div>
