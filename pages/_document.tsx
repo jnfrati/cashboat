@@ -19,10 +19,27 @@ class MyDocument extends Document {
           />
           {/* <!-- End Google Tag Manager --> */}
 
+          <title>CashBoat</title>
+
           {/* <!-- Google / Search Engine Tags --> */}
           <meta itemProp="name" content="CashBoat" />
           <meta itemProp="description" content="Offshore USD to ARS" />
           <meta itemProp="image" content="https://cashboat.vercel.app/cashboat.jpg" />
+
+          {/* !-- Facebook Meta Tags --> */}
+          <meta property="og:url" content="https://cashboat.vercel.app" />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="CashBoat" />
+          <meta property="og:description" content="Offshore USD to ARS" />
+          <meta property="og:image" content="https://cashboat.vercel.app/cashboat.jpg" />
+
+          {/* <!-- Twitter Meta Tags --> */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="CashBoat" />
+          <meta name="twitter:description" content="Offshore USD to ARS" />
+          <meta name="twitter:image" content="https://cashboat.vercel.app/cashboat.jpg" />
+
+          {/* <!-- Meta Tags Generated via http://heymeta.com --> */}
         </Head>
         <body>
           {/* <!-- Google Tag Manager (noscript) --> */}
